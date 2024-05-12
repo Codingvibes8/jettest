@@ -34,3 +34,19 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+
+## Create a New Live Template:
+Open WebStorm.
+Go to File > Settings (or WebStorm > Preferences on macOS).
+In the left sidebar, navigate to Editor > Live Templates.
+Click the + button to add a new template.
+Define your snippet abbreviation (e.g., rcc for a React class component).
+Enter the template text (the code snippet you want to generate when you type the abbreviation).
+Specify the Context:
+In the Applicable in section, choose the relevant contexts (e.g., JavaScript, JSX, TypeScript).
+You can also set the context to specific file types (e.g., .js, .jsx, .ts, .tsx).
+Save and Apply:
+Click Apply or OK to save your custom snippet.
+Now, when you type the abbreviation in your code, WebStorm will expand it into the full snippet.
